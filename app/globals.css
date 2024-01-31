@@ -3,6 +3,37 @@
 @tailwind utilities;
 
 @layer base {
+  .light {
+    --background: 240 100% 100%; /* Tons de branco */
+    --foreground: 0 0% 0%; /* Preto */
+
+    --card: 255 100% 100%; /* Branco */
+    --card-foreground: 0 0% 0%; /* Preto */
+
+    --popover: 255 100% 100%; /* Branco */
+    --popover-foreground: 0 0% 0%; /* Preto */
+
+    --primary: 210 40% 98%; /* Cor original */
+    --primary-foreground: 0 0% 100%; /* Branco */
+
+    --secondary: 240 90% 90%; /* Tom de cinza claro */
+    --secondary-foreground: 0 0% 0%; /* Preto */
+
+    --muted: 240 90% 90%; /* Tom de cinza claro */
+    --muted-foreground: 0 0% 0%; /* Preto */
+
+    --accent: 240 90% 90%; /* Tom de cinza claro */
+    --accent-foreground: 0 0% 0%; /* Preto */
+
+    --destructive: 0 84% 60%; /* Cor original */
+    --destructive-foreground: 0 0% 100%; /* Branco */
+
+    --border: 240 90% 90%; /* Tom de cinza claro */
+    --input: 240 90% 90%; /* Tom de cinza claro */
+    --ring: 212.7 26.8% 83.9%; /* Cor original */
+
+    --radius: 0.5rem;
+  }
   .dark {
     --background: 225 9% 9%;
     --foreground: 210 40% 98%;
