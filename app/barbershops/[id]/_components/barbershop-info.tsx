@@ -6,6 +6,7 @@ import { Button } from "@/app/_components/ui/button";
 import { ChevronLeftIcon, MapPinIcon, MenuIcon, StarIcon } from "lucide-react";
 import { Barbershop } from "@prisma/client";
 import { useRouter } from "next/navigation";
+import ServiceItem from "./service-item";
 
 interface BarbershopInfoProps {
   barbershop: Barbershop;
